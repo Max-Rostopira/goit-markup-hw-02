@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+}
+
+ul{
+list-style: none;
+}
+/* колір тексту основний #212121
+другий колір #757575
+колір виділення #2196F3
+колір футера і хедера #2F303A */
+
+/* header*/
+
+.logo{
+    color: #212121;
+}
+.logo:hover,
+.logo:focus{
+    color: #2196F3;
+}
+
+.link-site{
+    color: #212121;
+}
+
+.link-site:hover,
+.link-site:focus{
+    color: #2196F3;
+}
+
+.link-contact{
+    color: #757575;
+}
+.link-contact:hover,
+.link-contact:focus{
+    color: #2196F3;
+}
+
+/*Головний блок*/
+
+.main-section{
+    background-color: #2F303A;
+}
+
+.main-title{
+    color: #FFFFFF;
+}
+
+button{
+    background-color: #2196F3;
+}
+
+span{
+    color: #FFFFFF;
+}
+
+/*Переваги*/
+
+.advantage{
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.advantage-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/*Чим ми займаємося*/
+.work-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+
+/*Наша команда*/
+.team-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.name-wirk{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*Футер*/
+
+.logo-footer{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+footer{
+    background-color: #2F303A;
+}
+
+.adress-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}

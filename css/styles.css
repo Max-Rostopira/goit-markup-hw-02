@@ -1,27 +1,33 @@
 body {
     background-color: white;
+    color: #757575;
+     font-family: 'Roboto';
 }
 
 ul{
 list-style: none;
 }
-/* колір тексту основний #212121
-другий колір #757575
-колір виділення #2196F3
-колір футера і хедера #2F303A */
 
-/* header*/
+a{
+    text-decoration: none;
+}
+
+.logo-text{
+    color:#2196F3 ;
+}
 
 .logo{
     color: #212121;
 }
 .logo:hover,
 .logo:focus{
+    cursor: pointer;
     color: #2196F3;
 }
 
 .link-site{
     color: #212121;
+    cursor: pointer;
 }
 
 .link-site:hover,
@@ -47,11 +53,19 @@ list-style: none;
     color: #FFFFFF;
 }
 
-button{
+.button-portfolio{
+    background-color: #2196F3;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.button-main{
     background-color: #2196F3;
 }
 
-span{
+
+
+.button-text{
     color: #FFFFFF;
 }
 
@@ -59,35 +73,27 @@ span{
 
 .advantage{
     color: #212121;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
 }
 .advantage-text{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-
-
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 
 /*Чим ми займаємося*/
 .work-title{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    letter-spacing: 0.03em;
 
     color: #212121;
 }
@@ -95,16 +101,13 @@ span{
 
 /*Наша команда*/
 .team-title{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 .name{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -113,7 +116,6 @@ span{
     color: #212121;
 }
 .name-wirk{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -131,7 +133,7 @@ span{
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: #FFFFFF;
 }
 
 footer{
@@ -139,11 +141,61 @@ footer{
 }
 
 .adress-title{
-    font-family: 'Roboto';
+    cursor: pointer;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+
+}
+.adress-title:hover,
+.adress-title:focus{
+    color: #2196F3;
+}
+
+.logo-footer:hover,
+.logo-footer:focus{
+    cursor: pointer;
+    color: #2196F3;
+}
+
+/* Портфоліо*/
+
+.button-portfolio{
+    background-color: #F5F4FA;
+}
+
+.button-portfolio:hover{
+    background-color: #2196F3;
+}
+
+.button-text-portfolio{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.button-text-portfolio:hover{
+    color: #FFFFFF;
+}
+
+.projekt-portfolio{
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.projekt-type{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }

@@ -1,8 +1,21 @@
+:root{
+    --primary-text-colour:#757575;
+    --secondary-text-colour: #212121;
+    --button-background-colour:#2196F3 ;
+    --secondary-button-colour: #FFFFFF;
+
+}
+
 body {
     background-color: white;
-    color: #757575;
-     font-family: 'Roboto';
+    font-family: 'Roboto';
+    color:var(--primary-text-colour);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
 }
+
 
 ul{
 list-style: none;
@@ -13,11 +26,11 @@ a{
 }
 
 .logo-text{
-    color:#2196F3 ;
+    color:var(--button-background-colour) ;
 }
 
 .logo{
-    color: #212121;
+    color: var(--secondary-text-colour);
 }
 .logo:hover,
 .logo:focus{
@@ -36,11 +49,17 @@ a{
 }
 
 .link-contact{
-    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-colour);
 }
 .link-contact:hover,
 .link-contact:focus{
-    color: #2196F3;
+    color: var(--button-background-colour);
 }
 
 /*Головний блок*/
@@ -50,29 +69,32 @@ a{
 }
 
 .main-title{
-    color: #FFFFFF;
+    color: var(--secondary-button-colour);
 }
 
 .button-portfolio{
-    background-color: #2196F3;
+    background-color: var(--button-colour);
     cursor:pointer;
     border-radius: 5px;
 }
 
 .button-main{
-    background-color: #2196F3;
+    background-color: var(--button-background-colour);
+    cursor: pointer;
+    border-radius: 5px ;
+    color:var(--secondary-button-colour);
 }
 
 
 
 .button-text{
-    color: #FFFFFF;
+    color: var(--secondary-button-colour);
 }
 
 /*Переваги*/
 
 .advantage{
-    color: #212121;
+    color: var(--secondary-text-colour);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -85,7 +107,7 @@ a{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-colour);
 }
 
 /*Чим ми займаємося*/
@@ -95,7 +117,7 @@ a{
     font-size: 36px;
     line-height: 42px;
 
-    color: #212121;
+    color: var(--secondary-text-colour);
 }
 
 
@@ -105,7 +127,7 @@ a{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    color: #212121;
+    color: var(--secondary-text-colour);
 }
 .name{
     font-style: normal;
@@ -113,7 +135,7 @@ a{
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--secondary-text-colour);
 }
 .name-wirk{
     font-style: normal;
@@ -121,7 +143,7 @@ a{
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-colour);
 }
 
 /*Футер*/
@@ -133,7 +155,7 @@ a{
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--secondary-button-colour);
 }
 
 footer{
@@ -142,23 +164,23 @@ footer{
 
 .adress-title{
     cursor: pointer;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--secondary-button-colour);
 
 }
 .adress-title:hover,
 .adress-title:focus{
-    color: #2196F3;
+    color: var(--button-background-colour);
 }
 
 .logo-footer:hover,
 .logo-footer:focus{
     cursor: pointer;
-    color: #2196F3;
+    color: var(--button-background-colour);
 }
 
 /* Портфоліо*/
@@ -168,34 +190,22 @@ footer{
 }
 
 .button-portfolio:hover{
-    background-color: #2196F3;
+    background-color: var(--button-background-colour);
+    color: var(--secondary-button-colour);  
 }
 
-.button-text-portfolio{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
 
-.button-text-portfolio:hover{
-    color: #FFFFFF;
-}
 
 .projekt-portfolio{
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--secondary-text-colour);
 }
 
 .projekt-type{
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-colour);
 }

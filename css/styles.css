@@ -8,12 +8,10 @@
 
 body {
     background-color: white;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color:var(--primary-text-colour);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-style: normal
+
 }
 
 
@@ -35,30 +33,33 @@ a{
 .logo:hover,
 .logo:focus{
     cursor: pointer;
-    color: #2196F3;
+    color: var(--button-background-colour);
 }
 
 .link-site{
-    color: #212121;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-colour);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .link-site:hover,
 .link-site:focus{
-    color: #2196F3;
+    color: var(--button-background-colour);
 }
 
 .link-contact{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
+    font-weight: 500;
     color: var(--primary-text-colour);
 }
 .link-contact:hover,
 .link-contact:focus{
+    
     color: var(--button-background-colour);
 }
 
@@ -69,53 +70,55 @@ a{
 }
 
 .main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--secondary-button-colour);
 }
 
 .button-portfolio{
+    font-family: inherit;
     background-color: var(--button-colour);
     cursor:pointer;
     border-radius: 5px;
 }
 
 .button-main{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     background-color: var(--button-background-colour);
     cursor: pointer;
     border-radius: 5px ;
     color:var(--secondary-button-colour);
 }
 
-
-
-.button-text{
-    color: var(--secondary-button-colour);
-}
-
 /*Переваги*/
 
 .advantage{
     color: var(--secondary-text-colour);
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
+    text-transform: uppercase;
     
 }
+
 .advantage-text{
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    line-height: 1.7;
     color: var(--primary-text-colour);
 }
 
 /*Чим ми займаємося*/
 .work-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
 
     color: var(--secondary-text-colour);
 }
@@ -123,39 +126,31 @@ a{
 
 /*Наша команда*/
 .team-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+    
     color: var(--secondary-text-colour);
 }
 .name{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+    line-height: 1.1;
     color: var(--secondary-text-colour);
 }
-.name-wirk{
-    font-style: normal;
+.name-work{
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+    line-height: 1.1;
     color: var(--primary-text-colour);
 }
 
 /*Футер*/
 
 .logo-footer{
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: Raleway, sans-serif;
+    color: var(--secondary-button-colour);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2px;
     letter-spacing: 0.03em;
-    color: var(--secondary-button-colour);
 }
 
 footer{
@@ -163,12 +158,10 @@ footer{
 }
 
 .adress-title{
-    cursor: pointer;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height:1.7;
+    cursor: pointer;
     color: var(--secondary-button-colour);
 
 }
@@ -183,10 +176,30 @@ footer{
     color: var(--button-background-colour);
 }
 
+.foter-link-contact{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.foter-link-contact:hover,
+.foter-link-contact:focus{
+    color: #2196F3;
+}
+
+
 /* Портфоліо*/
 
 .button-portfolio{
     background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .button-portfolio:hover{
@@ -197,6 +210,7 @@ footer{
 
 
 .projekt-portfolio{
+    font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
@@ -204,6 +218,7 @@ footer{
 }
 
 .projekt-type{
+    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;

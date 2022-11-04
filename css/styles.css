@@ -133,7 +133,9 @@ nav a.link-site-active {
 /*Чим ми займаємося*/
 
 .work-title{
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
     color: var(--secondary-text-colour);
 }
 
